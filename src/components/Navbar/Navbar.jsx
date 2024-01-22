@@ -1,11 +1,9 @@
 import React from 'react';
 
-const App = () => {
+export default function Navbar() {
   return (
     <div>
       
     </div>
   );
 }
-
-export default App;
