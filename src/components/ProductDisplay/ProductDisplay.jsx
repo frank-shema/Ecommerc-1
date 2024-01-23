@@ -35,7 +35,7 @@ export default function ProductDisplay(props) {
                     <p>(122)</p>
                 </div>
                 <div className="productdisplay-right-prices">
-                    <div className="productdisplay-right-price-old">${product.oldprice}</div>
+                    <div className="productdisplay-right-price-old">${product.old_price}</div>
                     <div className="productdisplay-right-price-new">${product.new_price}</div>
                 </div>
                 <div className="productdisplay-right-description">
@@ -43,7 +43,7 @@ export default function ProductDisplay(props) {
                 </div>
                 <div className="productdisplay-right-size">
                     <h1>Select size</h1>
-                    <div className="productdisplay-right-size">
+                    <div className="productdisplay-right-sizes">
                         <div>S</div>
                         <div>M</div>
                         <div>L</div>
