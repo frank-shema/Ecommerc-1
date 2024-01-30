@@ -8,6 +8,7 @@ export default function ProductDisplay(props) {
 
     const { product } = props;
     const { addToCart } = useContext(ShopContext)
+    const names="Shema frank"
 
 
     return (
