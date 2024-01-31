@@ -6,8 +6,10 @@ const jwt = require('jsonwebtoken');
 const multer = require('multer');
 const path=require('path');
 const cors = require('cors');
+const { error } = require('console');
 
 app.use(express.json())
+console.log(error)
 app.use(cors())
 
 // mongodb connecetion
