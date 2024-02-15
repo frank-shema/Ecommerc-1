@@ -7,6 +7,7 @@ import DescriptionBox from '../components/DescriptionBox/DescriptionBox';
 import RelatedProducts from '../components/RelatedProducts/RelatedProducts';
 
 export default function Product() {
+    const productss ="these are the products" 
     const { all_product } = useContext(ShopContext)
     const { productId } = useParams();
     const product = all_product.find((e) => e.id === Number(productId))
